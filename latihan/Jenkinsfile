@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+    stages {
+        stage('Halo') {
+            steps {
+                echo 'Ini pipeline pertamaku'
+            }
+        }
+    }
+}
+
